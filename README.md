@@ -8,7 +8,7 @@ output:
 ---
 
 ## Project Getting and Cleaning Data
-The purpose of this projec is to demonstrate my ability to collect, work with, and clean a dataset.
+The purpose of this project is to demonstrate my ability to collect, work with, and clean a dataset.
 The goal is to prepare tidy data that can be used for later analysis. 
 
 It works with a dataset given from the UCI Machine Learning Repository.
@@ -42,11 +42,11 @@ The dataset includes the following files:
 * 'features_info.txt':       Shows information about the variables used on the feature vector.
 * 'features.txt':            List of all 561 features.
 * 'activity_labels.txt':     Links the class labels with their activity name.
-***
+
 * 'train/X_train.txt':       Training set, containing 7352 observations of 561 variables.
 * 'train/y_train.txt':       Training labels, containing which activity the measurements are from.
 * 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-***
+
 * 'test/X_test.txt':         Test set, containing 2947 observations of 561 variables.
 * 'test/y_test.txt':         Test labels, containing which activity the measurements are from.
 * 'test/subject_train.txt':  Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
@@ -59,8 +59,8 @@ The following files are available for the train and test data. Their description
 ##Creating the tidy datafile
 
 ###Guide to create the tidy data file, this is done by the R-script run_analysis.R
-The script uses the package dplyr, so it assumes you have installed that package.
-I wanted to use the select statement to select the required columns. This creates a little bit more seperate dataframes and combine steps, than other solutions.
+The script uses the package `dplyr`, so it assumes you have installed that package.  
+I wanted to use the *italics*select _italics_ statement to select the required columns. This creates a little bit more seperate dataframes and combine steps, than other solutions.
 
 The script follows the following structure:
 
