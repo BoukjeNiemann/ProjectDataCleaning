@@ -60,7 +60,7 @@ The following files are available for the train and test data. Their description
 
 ###Guide to create the tidy data file, this is done by the R-script run_analysis.R
 The script uses the package `dplyr`, so it assumes you have installed that package.  
-I wanted to use the *italics*select _italics_ statement to select the required columns. This creates a little bit more seperate dataframes and combine steps, than other solutions.
+I wanted to use the *select* statement to select the required columns. This creates a little bit more seperate dataframes and combine steps, than other solutions.
 
 The script follows the following structure:
 
