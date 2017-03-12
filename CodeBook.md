@@ -5,10 +5,10 @@ date: "Mar 12 2017"
 output: html_document
 ---
 
-This decribes the variables in the result.txt file.
+This decribes the variables in the `result.txt` file.
 The result tidy dataset contains 180 observations of 68 variables, the activity, the subject_id, 33 variables conserning the mean of a measurement, 33 variables conserning the standard deviation of a measurement.
 
-All variables are except activity and subject_id are normalized, that means devided by the units used, so they no longer have a unit and are in the range [-1, 1].
+All variables except activity and subject_id are normalized, that means devided by the units used, so they no longer have a unit and are in the range [-1, 1].
 They all have "Mean.Of." before the variable name of the original dataset.
 This means a mean over all sliding windows of 2.56 seconds that are recorded for a combination of activity and subject_id.
 The second mean or the std means that the mean or standard deviation is determined for this variable over the 128 readings per sliding window.
